@@ -9,11 +9,11 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "npm run generate:gh-pages && npm run push:gh-pages",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
     "push:gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "deploy": "npm run generate:gh-pages && npm run push:gh-pages"
   },
   "dependencies": {
     "nuxt": "^2.0.0"
