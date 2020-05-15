@@ -1,77 +1,47 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        dhvl5-nuxt
-      </h1>
-      <h2 class="subtitle">
-        My bee&#39;s knees Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+
+  <div class="w-full h-full select-none">
+    <div class="flex flex-col h-screen justify-center items-center">
+
+      <img class="transform ease-in-out duration-300 shadow-2xl rounded-full w-auto h-auto scale-75 hover:shadow-xs" src="~/assets/me.png"/>
+
+      <p class="text-xl text-center mt-10"><span class="text-black font-bold">I'm Dhaval Prajapati,</span><br> a passionate self-made game developer who loves coding and making cool stuff with it.</p>
+
+      <!-- <a href="" @click="anything">
+        <img src="https://img.icons8.com/android/24/000000/circled-down-2.png" class="w-6 h-6 mb-10 absolute bottom-0">
+      </a> -->
+
     </div>
+
   </div>
+
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
+// export default {
+//   data () {
+//     return {
+//       post: {}
+//     }
+//   },
+//   methods:{
+//     anything : function () {
+//       alert('wow')
+//     }
+//   }
+// }
 </script>
 
 <style>
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
   @apply min-h-screen flex justify-center items-center text-center mx-auto;
+}*/
+.page-enter-active, .page-leave-active {
+  transition: all .25s ease-out;
 }
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.page-enter, .page-leave-active {
+  opacity: 0;
+  transform-origin: 50% 50%;
 }
 </style>

@@ -1,0 +1,15 @@
+<template>
+    <div class="flex w-full h-screen justify-center items-center font-bold text-xl">
+        <h1> { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> Shhhh..... I'm still working on it!!! </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } </h1>
+    </div>
+</template>
+
+<style>
+.page-enter-active, .page-leave-active {
+  transition: all .25s ease-out;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
+  transform-origin: 50% 50%;
+}
+</style>
