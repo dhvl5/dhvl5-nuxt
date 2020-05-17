@@ -1,21 +1,23 @@
 <template>
 
-  <div class="w-full h-full select-none">
+  <div class="w-full h-full select-none bg-background-primary text-text-text-color">
     <div class="flex flex-col w-full h-screen justify-center items-center">
 
-      <img class="transform ease-in-out duration-300 shadow-2xl rounded-full w-auto h-auto scale-75 hover:shadow-xs" src="~/assets/me.png"/>
+      <img class="transform ease-in-out duration-300 shadow-2xl rounded-full w-auto h-auto scale-78 hover:scale-75 hover:shadow-xs" src="~/assets/me.png"/>
 
-      <p class="text-xl text-center mt-10"><span class="text-black font-bold">I'm Dhaval Prajapati,</span><br> a passionate self-made game developer who loves coding and making cool stuff with it.</p>
+      <p class="font-bold opacity-50">HOWDY-DOODY!</p>
+
+      <p class="text-xl text-center mt-10"><span class="font-bold">I'm Dhaval Prajapati,</span><br> a passionate self-made game developer who loves coding and making cool stuff with it.</p>
 
       <div class="flex flex-row mt-20">
         <a class="w-6 h-6 mx-2" target="_blank" href="https://www.linkedin.com/in/dhvl5/">
-          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100 hover:text-linkedin" style="font-size: 30px"/>
+          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100" style="font-size: 30px"/>
         </a>
         <a class="w-6 h-6 mx-2" target="_blank" href="https://twitter.com/dhvl05">
-          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100 hover:text-twitter" style="font-size: 30px"/>
+          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100" style="font-size: 30px"/>
         </a>
         <a class="w-6 h-6 mx-2" target="_blank" href="https://github.com/dhvl5/">
-          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'github' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100 hover:text-github" style="font-size: 30px"/>
+          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'github' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100" style="font-size: 30px"/>
         </a>
       </div>
 

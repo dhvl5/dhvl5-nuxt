@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full h-screen justify-center items-center font-bold text-xl">
+    <div class="flex w-full h-screen justify-center items-center font-bold text-xl bg-background-primary text-text-text-color">
         <h1> { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> Shhhh..... I'm still working on it!!! </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } </h1>
     </div>
 </template>

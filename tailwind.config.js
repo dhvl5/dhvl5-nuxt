@@ -9,17 +9,20 @@ module.exports = {
     scale: {
       '20': '.20',
       '50': '.5',
-      '75': '.75'
+      '73': '.73',
+      '75': '.75',
+      '78': '.78'
     },
-    extend: {
-      screens: {
-        light: { raw: "(prefers-color-scheme: light)" },
-        dark: { raw: "(prefers-color-scheme: dark)" }
-      }, 
+    extend: { 
       textColor: {
         'twitter': '#1DA1F2',
         'linkedin': '#0e76a8',
-        'github': '#181717'
+        'github': '#181717',
+        'text-text-color': 'var(--text-color)'
+      },
+      colors: {
+        'background-primary': 'var(--bg-background-primary)',
+        'background-secondary': 'var(--bg-background-secondary)'
       }
     }
   },
