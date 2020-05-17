@@ -1,5 +1,8 @@
 export default {
   mode: 'spa',
+  router: {
+    base: '/dhvl5-nuxt/'
+  },
   /*
   ** Headers of the page
   */
