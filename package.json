@@ -16,6 +16,10 @@
     "deploy": "npm run generate:gh-pages && npm run push:gh-pages"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
@@ -29,6 +33,7 @@
     "eslint-plugin-nuxt": ">=0.4.2",
     "eslint-plugin-prettier": "^3.1.2",
     "gh-pages": "^2.2.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "push-dir": "^0.4.1"
   }
 }

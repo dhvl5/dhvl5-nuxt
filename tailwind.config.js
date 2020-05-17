@@ -15,6 +15,11 @@ module.exports = {
       screens: {
         light: { raw: "(prefers-color-scheme: light)" },
         dark: { raw: "(prefers-color-scheme: dark)" }
+      }, 
+      textColor: {
+        'twitter': '#1DA1F2',
+        'linkedin': '#0e76a8',
+        'github': '#181717'
       }
     }
   },
