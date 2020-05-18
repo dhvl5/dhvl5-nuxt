@@ -7,13 +7,13 @@
         <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/about">ABOUT ME</nuxt-link>
         <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/portfolio">PORTFOLIO</nuxt-link>
         <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/contact">CONTACT ME</nuxt-link>
-        <a @click.prevent="toggleTheme" class=" outline-none text-indigo-500 mx-16 font-bold hover:text-indigo-300 text" href="#">
+        <a @click.prevent="toggleTheme" class="fixed right-0 outline-none text-indigo-500 mx-16 font-bold hover:text-indigo-300 text" href="#" style="width: 25px">
           <font-awesome-icon v-if="this.toggle" :icon="{ prefix: 'fas', iconName: 'sun' }" style="font-size: 30px"/>
           <font-awesome-icon v-else :icon="{ prefix: 'fas', iconName: 'moon' }" style="font-size: 30px"/>
         </a>
     </div>
     <div class="theme-bg flex flex-row justify-center items-center bg-background-secondary w-full h-20 fixed bottom-0 text-text-text-color">
-      <p> &copy; 2020 Dhaval Prajapati {{ toggle }}</p>
+      <p> &copy; 2020 Dhaval Prajapati</p>
     </div>
   </div>
 </template>
