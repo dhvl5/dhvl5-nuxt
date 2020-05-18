@@ -29,6 +29,11 @@
         this.toggle = false;
         theme.classList.toggle("theme-dark", this.toggle);
       }
+      else if(localStorage.getItem('toggle') !== 'false')
+      {
+        this.toggle = true;
+        theme.classList.toggle("theme-dark", this.toggle);
+      }
       else
       {
         this.toggle = true;
