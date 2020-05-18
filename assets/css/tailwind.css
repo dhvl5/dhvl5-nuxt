@@ -15,3 +15,7 @@
     --bg-background-secondary: #2D3748;
     --text-color: #ffffff;
 }
+
+.theme-bg {
+    transition: background-color .25s;
+}

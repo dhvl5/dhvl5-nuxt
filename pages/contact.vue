@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full h-screen justify-center items-center font-bold text-xl bg-background-primary text-text-text-color">
+    <div class="theme-bg flex w-full h-screen justify-center items-center font-bold text-xl bg-background-primary text-text-text-color">
         <h1>CONTACT ME</h1>
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="w-full h-full select-none bg-background-primary text-text-text-color">
+  <div class="theme-bg w-full h-full select-none bg-background-primary text-text-text-color">
     <div class="flex flex-col w-full h-screen justify-center items-center">
 
       <img class="transform ease-in-out duration-300 shadow-2xl rounded-full w-auto h-auto scale-78 hover:scale-75 hover:shadow-xs" src="~/assets/me.png"/>
