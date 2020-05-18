@@ -7,7 +7,7 @@
         <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/about">ABOUT ME</nuxt-link>
         <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/portfolio">PORTFOLIO</nuxt-link>
         <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/contact">CONTACT ME</nuxt-link>
-        <a @click.prevent="toggleTheme" class="fixed right-0 outline-none text-indigo-500 mx-16 font-bold hover:text-indigo-300 text" href="#">
+        <a @click.prevent="toggleTheme" class=" outline-none text-indigo-500 mx-16 font-bold hover:text-indigo-300 text" href="#">
           <font-awesome-icon v-if="this.toggle" :icon="{ prefix: 'fas', iconName: 'sun' }" style="font-size: 30px"/>
           <font-awesome-icon v-else :icon="{ prefix: 'fas', iconName: 'moon' }" style="font-size: 30px"/>
         </a>
