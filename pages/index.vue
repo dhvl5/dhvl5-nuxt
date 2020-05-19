@@ -10,8 +10,8 @@
       <p class="text-xl text-center mt-10"><span class="font-bold">I'm Dhaval Prajapati,</span><br> a passionate self-made game developer who loves coding and making cool stuff with it.</p>
 
       <div class="flex flex-row mt-20">
-        <a class="w-40 h-12 mx-2 bg-transparent border-indigo-500 border-2 rounded-md font-bold flex justify-center items-center" target="_blank" href="/Dhaval_Prajapati.pdf">Download CV</a>
-        <nuxt-link class="w-40 h-12 mx-2 bg-transparent border-indigo-500 border-2 rounded-md font-bold flex justify-center items-center" to="/contact">Say 'hi'</nuxt-link>
+        <a class="w-40 h-12 mx-2 bg-transparent border-indigo-500 border-2 rounded-md font-bold flex justify-center items-center hover:bg-indigo-500 transform duration-300 ease-in-out" target="_blank" href="/dhvl5-nuxt/Dhaval_Prajapati.pdf">Download CV</a>
+        <nuxt-link class="w-40 h-12 mx-2 bg-transparent border-indigo-500 border-2 rounded-md font-bold flex justify-center items-center hover:bg-indigo-500 transform duration-300 ease-in-out" to="/contact">Say 'hi'</nuxt-link>
       </div>
 
       <div class="flex flex-row mt-20">
