@@ -31,7 +31,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/fontawesome.js'
+    '~/plugins/fontawesome.js',
+    { src: '~/plugins/vue-pdf.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -55,6 +56,14 @@ export default {
     ** You can extend webpack config here
     */
     extend (config, ctx) {
+      config.output.globalObject = 'this'
+      config.module.rules.push
+      (
+        {
+          test: /\.pdf$/,
+          loader: 'url-loader'
+        }
+      )
     }
   }
 }
