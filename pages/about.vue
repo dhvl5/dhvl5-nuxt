@@ -1,6 +1,6 @@
 <template>
-  <div class="theme-bg w-full h-full">
-    <div class="flex flex-col h-screen justify-center items-center px-64 bg-background-primary text-text-text-color">
+  <main class="theme-bg flex items-center justify-center select-none bg-background-primary text-text-text-color">
+    <div class="px-64">
       <h1 class="font-bold text-3xl">Hello, it's me again &#128516;</h1> <br>
       <h2 class="text-xl">I've always loved games more than anything, I have so many ideas with so much potential. I want to create this and that and so on, but then I started working as a Data Entry Clerk while pursuing my studies further, those were some of the worst days ever. The job was killing me from inside before I decided to drop out of college to do what I actually wanted to do. Since then, I've completed an internship and taught myself Unity3D within a few months, I am currently working within the industry and am actively creating 2D, 3D and AR apps/games.</h2>
       <div class="mt-10 flex flex-col justify-center items-center"><span class="font-bold text-xl underline">EXPERIENCE</span>
@@ -27,7 +27,7 @@
         </table>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <style>
