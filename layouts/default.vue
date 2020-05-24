@@ -1,14 +1,14 @@
 <template>
   <section class="flex flex-col min-h-screen antialiased bg-background-primary select-none">
-    <header class="theme-bg p-4 bg-background-secondary">
-      <nav class="theme-bg flex justify-center">
+    <header class="theme-bg bg-background-secondary">
+      <nav class="theme-bg h-12 flex justify-center items-center">
           <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/">HOME</nuxt-link>
           <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/blog">BLOG</nuxt-link>
           <nuxt-link class="outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/about">ABOUT ME</nuxt-link>
           <!-- <nuxt-link class="hoverable outline-none text-indigo-500 mx-16 font-bold transform ease-in-out duration-300 hover:text-indigo-300 text" to="/portfolio">PORTFOLIO</nuxt-link> -->
-          <div class="hoverable text-indigo-500 hover:text-indigo-300">
-            <a href="#" class="mx-16 bg-black outline-none relative block text font-bold transform ease-in-out duration-300">PORTFOLIO</a>
-            <div class="mega-menu mt-4 h-64 z-10 shadow-xl bg-teal-700">
+          <div class="hoverable h-full mx-16 text-indigo-500 hover:text-indigo-300">
+            <a href="#" class="h-full flex items-center justify-center outline-none relative block text font-bold transform ease-in-out duration-300">PORTFOLIO</a>
+            <div class="mega-menu h-64 z-10 shadow-xl bg-teal-700">
               <div class="w-full h-full">
                 <div class="grid grid-cols-3 w-full h-full text-white">
                   <div class="unitydiv flex items-center justify-center transform duration-300 ease-in-out" style="background-image: url('https://unity.com/sites/default/files/styles/16_9_l_scale_width/public/2019-07/mwu-12_12-1230x692%402x.jpg?itok=brBloUfr');">
