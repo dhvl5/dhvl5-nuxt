@@ -51,5 +51,6 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-filters')
-  ]
+  ],
+  purge: { enabled: false }
 }
