@@ -50,6 +50,8 @@
 <style>
 
 /* PORTFOLIO HOVER  */
+  .svg-inline--fa { }
+
   .mega-menu {
     display: none;
     position: absolute;
