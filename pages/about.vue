@@ -14,9 +14,14 @@
           </thead>
           <tbody>
             <tr>
+              <td class="border px-16 py-4">The Intellify</td>
+              <td class="border px-16 py-4">Unity Developer</td>
+              <td class="border px-16 py-4">JUNE 2020 - PRESENT</td>
+            </tr>
+            <tr>
               <td class="border px-16 py-4">CreArt Solutions</td>
               <td class="border px-16 py-4">Unity Developer</td>
-              <td class="border px-16 py-4">SEPTEMBER 2018 - PRESENT</td>
+              <td class="border px-16 py-4">APRIL 2018 - APRIL 2020</td>
             </tr>
             <tr>
               <td class="border px-16 py-4">Anand Tradelink Pvt. Ltd.</td>

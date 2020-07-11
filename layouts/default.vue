@@ -11,19 +11,19 @@
             <div class="mega-menu h-64 z-10 shadow-xl bg-teal-700">
               <div class="w-full h-full">
                 <div class="grid grid-cols-3 w-full h-full text-white">
-                  <div class="unitydiv flex items-center justify-center transform duration-300 ease-in-out" style="background-image: url('https://unity.com/sites/default/files/styles/16_9_l_scale_width/public/2019-07/mwu-12_12-1230x692%402x.jpg?itok=brBloUfr');">
+                  <div class="unitydiv flex items-center justify-center transform duration-300 ease-in-out">
                     <nuxt-link to="/unity" class="unitylogo flex flex-col justify-center items-center w-full h-full transform duration-300 ease-in-out">
                       <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'unity' }"/>
                       <p class="text-4xl">Unity</p>
                     </nuxt-link>
                   </div>
-                  <div class="androiddiv flex items-center justify-center transform duration-300 ease-in-out" style="background-image: url('https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');">
+                  <div class="androiddiv flex items-center justify-center transform duration-300 ease-in-out">
                     <nuxt-link to="/android" class="androidlogo flex flex-col justify-center items-center w-full h-full transform duration-300 ease-in-out">
                       <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'android' }"/>
                       <p class="text-4xl">Android</p>
                     </nuxt-link>
                   </div>
-                  <div class="webdiv flex items-center justify-center transform duration-300 ease-in-out" style="background-image: url('https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+                  <div class="webdiv flex items-center justify-center transform duration-300 ease-in-out">
                     <nuxt-link to="/web" class="weblogo flex flex-col justify-center items-center w-full h-full transform duration-300 ease-in-out">
                       <font-awesome-icon :icon="{ prefix: 'fas', iconName: 'laptop-code' }"/>
                       <p class="text-4xl">Web</p>
@@ -79,11 +79,7 @@
 .unitydiv {
    background-size: cover;
    background-position: top;
-   filter: grayscale(100%);
-}
-.unitydiv:hover {
-  filter: grayscale(0%);
-  background-position: left 0px bottom -70px;
+   background-color: #000000;
 }
 .unitylogo {
   font-size: 70px;
@@ -95,11 +91,7 @@
 .androiddiv {
    background-size: cover;
    background-position: top;
-   filter: grayscale(100%);
-}
-.androiddiv:hover {
-  filter: grayscale(0%);
-  background-position: left 0px bottom -135px;
+   background-color: #3ddc84;
 }
 .androidlogo {
   font-size: 70px;
@@ -111,11 +103,7 @@
 .webdiv {
    background-size: cover;
    background-position: top;
-   filter: grayscale(100%);
-}
-.webdiv:hover {
-  filter: grayscale(0%);
-  background-position: left 0px bottom -135px;
+   background-color: #3F51B5;
 }
 .weblogo {
   font-size: 70px;
