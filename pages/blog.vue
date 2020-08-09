@@ -1,14 +1,22 @@
 <template>
-    <div class="theme-bg flex w-full h-screen justify-center items-center font-bold text-xl bg-background-primary text-text-text-color">
-        <h1> { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> Shhhh..... I'm still working on it!!! </span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } </h1>
-    </div>
+  <div
+    class="theme-bg flex w-full h-screen justify-center items-center font-bold text-xl bg-background-primary text-text-text-color"
+  >
+    <h1>
+      { &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span> Shhhh..... I'm still working on it!!! </span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }
+    </h1>
+  </div>
 </template>
 
 <style>
-.page-enter-active, .page-leave-active {
-  transition: all .25s ease-out;
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.25s ease-out;
 }
-.page-enter, .page-leave-active {
+.page-enter,
+.page-leave-active {
   opacity: 0;
   transform-origin: 50% 50%;
 }

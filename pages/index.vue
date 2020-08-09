@@ -1,66 +1,235 @@
-<template>
-
-  <main class="theme-bg flex items-center justify-center select-none bg-background-primary text-text-text-color">
+<!-- <template>
+  <main
+    class="theme-bg flex items-center justify-center select-none bg-background-primary text-text-text-color"
+  >
     <div class="flex flex-col justify-center items-center">
-
-      <img class="transform ease-in-out duration-300 shadow-2xl rounded-full w-auto h-auto scale-78 hover:scale-75 hover:shadow-xs" src="~/assets/me.png"/>
-
-      <p class="font-bold opacity-50">HOWDY-DOODY!</p>
-
-      <p class="text-xl text-center mt-10"><span class="font-bold">I'm Dhaval Prajapati,</span><br> a passionate self-made game developer who loves coding and making cool stuff with it.</p>
-
       <div class="flex flex-row mt-20">
-        <a class="w-40 h-12 mx-2 bg-transparent border-indigo-500 border-2 rounded-md font-bold flex justify-center items-center hover:bg-indigo-500 transform duration-300 ease-in-out" target="_blank" href="/dhvl5-nuxt/Dhaval_Prajapati.pdf">Download CV</a>
-        <nuxt-link class="w-40 h-12 mx-2 bg-transparent border-indigo-500 border-2 rounded-md font-bold flex justify-center items-center hover:bg-indigo-500 transform duration-300 ease-in-out" to="/contact">Say 'hi'</nuxt-link>
+        <a
+          class="w-6 h-6 mx-2"
+          target="_blank"
+          href="https://www.linkedin.com/in/dhvl5/"
+        >
+          <font-awesome-icon
+            :icon="{ prefix: 'fab', iconName: 'linkedin' }"
+            class="transform duration-300 ease-in-out opacity-50 hover:opacity-100"
+            style="font-size: 30px"
+          />
+        </a>
+        <a
+          class="w-6 h-6 mx-2"
+          target="_blank"
+          href="https://twitter.com/dhvl05"
+        >
+          <font-awesome-icon
+            :icon="{ prefix: 'fab', iconName: 'twitter' }"
+            class="transform duration-300 ease-in-out opacity-50 hover:opacity-100"
+            style="font-size: 30px"
+          />
+        </a>
+        <a
+          class="w-6 h-6 mx-2"
+          target="_blank"
+          href="https://github.com/dhvl5/"
+        >
+          <font-awesome-icon
+            :icon="{ prefix: 'fab', iconName: 'github' }"
+            class="transform duration-300 ease-in-out opacity-50 hover:opacity-100"
+            style="font-size: 30px"
+          />
+        </a>
       </div>
-
-      <div class="flex flex-row mt-20">
-        <a class="w-6 h-6 mx-2" target="_blank" href="https://www.linkedin.com/in/dhvl5/">
-          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100" style="font-size: 30px"/>
-        </a>
-        <a class="w-6 h-6 mx-2" target="_blank" href="https://twitter.com/dhvl05">
-          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'twitter' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100" style="font-size: 30px"/>
-        </a>
-        <a class="w-6 h-6 mx-2" target="_blank" href="https://github.com/dhvl5/">
-          <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'github' }" class="transform duration-300 ease-in-out opacity-50 hover:opacity-100" style="font-size: 30px"/>
-        </a>
-      </div>
-
-      <!-- <a href="" @click="anything">
-        <img src="https://img.icons8.com/android/24/000000/circled-down-2.png" class="w-6 h-6 mb-10 absolute bottom-0">
-      </a> -->
-
     </div>
   </main>
+</template> -->
 
+<template>
+  <section class="flex flex-col w-full h-full bg-background-primary theme-bg">
+    <header class="text-gray-500 bg-gray-900 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg> -->
+          <span class="ml-3 text-xl">DHVL5</span>
+        </a>
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="#aboutme" class="mr-5 hover:text-white">About Me</a>
+          <a href="#experience" class="mr-5 hover:text-white">Experience</a>
+          <a href="#contactme" class="mr-5 hover:text-white">Contact Me</a>
+        </nav>
+        <a href="#" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" @click.prevent="toggleTheme">
+          <p v-if="this.toggle">LIGHT</p>
+          <p v-else>DARK</p>
+        </a>
+      </div>
+    </header>
+    <main class="h-full w-full divide-y-2 divide-white divide-opacity-25">
+      <div class="mt-32 w-full flex px-5 py-24 items-center flex-col">
+        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-white">
+          <h3 class="mb-8">HOWDY-DOODY!</h3>
+          <h1 class="title-font sm:text-7xl text-3xl mb-8 font-medium text-white leading-none">I am
+            <br class="hidden lg:inline-block"><p class="text-green-700">Dhaval Prajapati.</p>
+          </h1>
+          <p class="mb-8 text-xl leading-relaxed">a passionate self-made game developer <br>who loves coding and making cool stuff with it.</p>
+          <div class="flex justify-center">
+            <a href="#contactme" class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Let's grab a coffee</a>
+          </div>
+        </div>
+        <div class="w-full h-64 pt-24 flex justify-center items-center">
+          <a href="#aboutme"><svg class="animate-bounce mt-4 ml-4 w-10 h-10 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+          </svg></a>
+        </div>
+      </div>
+      <div id="aboutme" class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <!-- <p class="text-white text-2xl pb-16">About Me</p> -->
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 pb-16 text-white flex justify-center">About Me</h1>
+        <img class="lg:w-3/12 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded-md" alt="hero" src="me_main.jpg">
+        <div class="text-center lg:w-2/3 w-full">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Hello it's me again!</h1>
+          <p class="leading-relaxed mb-8 text-white">I've always loved games more than anything, I have so many ideas with so much potential. I want to create this and that and so on, but then I started working as a Data Entry Clerk while pursuing my studies further, those were some of the worst days ever. The job was killing me from inside before I decided to drop out of college to do what I actually wanted to do. Since then, I've completed an internship and taught myself Unity3D within a few months, I am currently working within the industry and am actively creating 2D, 3D and AR apps/games.</p>
+        </div>
+      </div>
+      <div id="experience" class="container px-5 py-24 mx-auto">
+        <!-- <p class="text-white text-2xl pb-16 flex justify-center">Experience</p> -->
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 pb-16 text-white flex justify-center">Experience</h1>
+        <div class="my-8">
+          <div class="py-8 flex flex-wrap md:flex-no-wrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="tracking-widest font-medium title-font text-white">Unity Developer</span>
+              <span class="mt-1 text-gray-600 text-sm">JUNE 2020 - PRESENT</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">The Intellify</h2>
+              <p class="leading-relaxed text-white">- Creating virtual and augmented reality applications<br>- Building complex logic and problem solving</p>
+              <a href="https://theintellify.com/" target="_blank" class="text-green-500 inline-flex items-center mt-4">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-no-wrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="tracking-widest font-medium title-font text-white">Unity Developer</span>
+              <span class="mt-1 text-gray-600 text-sm">SEPTEMBER 2018 - APRIL 2020</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">CreArt Solutions</h2>
+              <p class="leading-relaxed text-white">- Creating games and augmented reality applications<br>- Building complex logic and problem solving<br>- Teaching game development</p>
+              <a href="https://creart.in/" target="_blank" class="text-green-500 inline-flex items-center mt-4">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-no-wrap">
+            <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span class="tracking-widest font-medium title-font text-white">Data Entry Clerk</span>
+              <span class="mt-1 text-gray-600 text-sm">MAY 2018 - SEPTEMBER 2018</span>
+            </div>
+            <div class="md:flex-grow">
+              <h2 class="text-2xl font-medium text-white title-font mb-2">Anand Tradelink Pvt. Ltd.</h2>
+              <p class="leading-relaxed text-white"> - Created bills, quotations based on orders and continuous communication with clients.</p>
+              <a href="https://atpl.biz/" target="_blank" class="text-green-500 inline-flex items-center mt-4">Learn More
+                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="M12 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contactme" class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Me</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
+        </div>
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 w-1/2">
+              <input class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Name" type="text">
+            </div>
+            <div class="p-2 w-1/2">
+              <input class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Email" type="email">
+            </div>
+            <div class="p-2 w-full">
+              <textarea class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none h-48 focus:border-green-500 text-base px-4 py-2 resize-none block" placeholder="Message"></textarea>
+            </div>
+            <div class="p-2 w-full">
+              <button class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Submit</button>
+            </div>
+            <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+              <!-- <a class="text-green-500">prajapatidhaval304@gmail.com</a><br>
+              <p class="leading-normal my-5">49 Smith St.
+                <br>Saint Cloud, MN 56301
+              </p> -->
+              <span class="inline-flex mt-4">
+                <a href="https://github.com/dhvl5/" target="_blank" class="text-gray-500">
+                  <font-awesome-icon class="text-white text-2xl" style="width:25px; height:25px" :icon="{ prefix: 'fab', iconName: 'github' }"/>
+                </a>
+                <a href="https://www.linkedin.com/in/dhvl5/" target="_blank" class="ml-4 text-gray-500">
+                  <font-awesome-icon class="text-white text-2xl" style="width:25px; height:25px" :icon="{ prefix: 'fab', iconName: 'linkedin' }"/>
+                </a>
+                <a href="https://twitter.com/dhvl05" target="_blank" class="ml-4 text-gray-500">
+                  <font-awesome-icon class="text-white text-2xl" style="width:25px; height:25px" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="text-gray-500 bg-gray-900 body-font">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg> -->
+          <span class="ml-3 text-xl">DHVL5</span>
+        </a>
+        <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">© 2020 Dhaval Prajapati</p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a href="#" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0" @click.prevent="toggleTheme">
+          Credits
+          </a>
+        </span>
+      </div>
+    </footer>
+  </section>
 </template>
 
 <script>
-// export default {
-//   data () {
-//     return {
-//       post: {}
-//     }
-//   },
-//   methods:{
-//     anything : function () {
-//       alert('wow')
-//     }
-//   }
-// }
+const theme = document.body
+
+export default {
+  data() {
+    return {
+      toggle: false
+    }
+  },
+  created() {
+    if (localStorage.getItem('toggle') === 'false') {
+      this.toggle = false
+      theme.classList.toggle('theme-dark', this.toggle)
+    } else if (localStorage.getItem('toggle') !== 'false') {
+      this.toggle = true
+      theme.classList.toggle('theme-dark', this.toggle)
+    } else {
+      this.toggle = true
+      theme.classList.toggle('theme-dark', this.toggle)
+    }
+  },
+  methods: {
+    toggleTheme() {
+      this.toggle = !this.toggle
+      theme.classList.toggle('theme-dark', this.toggle)
+      localStorage.setItem('toggle', this.toggle)
+    }
+  }
+}
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}*/
-
-.page-enter-active, .page-leave-active {
-  transition: all .25s ease-out;
-}
-.page-enter, .page-leave-active {
-  opacity: 0;
-  transform-origin: 50% 50%;
-}
-</style>

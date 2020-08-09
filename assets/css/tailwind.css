@@ -5,14 +5,14 @@
 @import 'tailwindcss/utilities';
 
 :root {
-    --bg-background-primary: #ffffff;
-    --bg-background-secondary: #EDF2F7;
+    --bg-background-primary: #1A202C;
+    --bg-background-secondary: #2D3748;
     --text-color: #000000;
 }
 
 .theme-dark {
     --bg-background-primary: #1A202C;
-    --bg-background-secondary: #2D3748;
+    --bg-background-secondary: #EDF2F7;
     --text-color: #ffffff;
 }
 
