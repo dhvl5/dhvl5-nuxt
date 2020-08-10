@@ -33,7 +33,8 @@ module.exports = {
         twitter: '#1DA1F2',
         linkedin: '#0e76a8',
         github: '#181717',
-        'text-text-color': 'var(--text-color)'
+        'text-text-color': 'var(--text-color)',
+        'text-text-cc': 'var(--text-cc)'
       },
       colors: {
         'background-primary': 'var(--bg-background-primary)',

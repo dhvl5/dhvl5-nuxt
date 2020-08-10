@@ -17,6 +17,11 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
+    script: [
+      {
+        src: 'https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.5.0/dist/alpine.min.js'
+      }
+    ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
