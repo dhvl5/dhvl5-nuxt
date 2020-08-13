@@ -7,7 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Dhaval Prajapati | Game Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,7 +22,7 @@ export default {
         src: 'https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.5.0/dist/alpine.min.js'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v2' }]
   },
   /*
    ** Customize the progress-bar color
@@ -37,7 +37,8 @@ export default {
    */
   plugins: [
     '~/plugins/fontawesome.js',
-    { src: '~/plugins/vue-pdf.js', ssr: false }
+    { src: '~/plugins/vue-pdf.js', ssr: false },
+    { src: '~/plugins/ga.js', mode: 'client'}
   ],
   /*
    ** Nuxt.js dev-modules
