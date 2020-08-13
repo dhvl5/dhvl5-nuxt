@@ -1,8 +1,12 @@
-export default {
-  mode: 'spa',
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/dhvl5-nuxt/'
-  },
+  }
+} : {}
+
+export default {
+  mode: 'spa',
+  routerBase,
   /*
    ** Headers of the page
    */

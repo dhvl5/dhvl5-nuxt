@@ -85,7 +85,7 @@
           <p class="mb-8 text-xl leading-relaxed">a passionate self-made game developer <br>who loves coding and making cool stuff with it.</p>
           <div class="flex justify-center">
             <a href="#contactme" class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Say 'hi'</a>
-            <a href="/dhvl5-nuxt/Dhaval_Prajapati.pdf" target="_blank" class="inline-flex text-white border border-green-500 ml-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Download CV</a>
+            <a href="/Dhaval_Prajapati.pdf" target="_blank" class="inline-flex text-white border border-green-500 ml-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Download CV</a>
           </div>
         </div>
         <div class="pt-0 xl:pt-24 w-full h-64 flex justify-center items-center">
