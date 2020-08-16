@@ -139,7 +139,7 @@
             </div>
             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
               <p title="Dhaval's Github" class="leading-normal mb-5 text-teal-400 flex justify-center items-center flex-wrap"><a href="https://github.com/dhvl5/dhvl5-nuxt" target="_blank" class="hover:text-teal-500 transform ease-in-out duration-200">Designed &amp; Built by ME
-                <br><font-awesome-icon class="text-2xl" style="width:15px; height:15px" :icon="{ prefix: 'fas', iconName: 'star' }"/> <span id="stars" class="w-full">100</span> &nbsp; <font-awesome-icon class="text-2xl" style="width:15px; height:15px" :icon="{ prefix: 'fas', iconName: 'code-branch' }"/> <span id="forks" class="w-full">100</span></a>
+                <br><font-awesome-icon class="text-2xl flex" style="width:15px; height:15px" :icon="{ prefix: 'fas', iconName: 'star' }"/> <span id="stars" class="w-full">100</span> &nbsp; <font-awesome-icon class="text-2xl" style="width:15px; height:15px" :icon="{ prefix: 'fas', iconName: 'code-branch' }"/> <span id="forks" class="w-full">100</span></a>
               </p>
 
               <span class="inline-flex mt-4">
