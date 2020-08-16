@@ -1,6 +1,18 @@
-# dhvl5-nuxt
+<div align="center">
+  <img alt="Logo" src="https://www.dhvl5.com/logo.png" width="100" />
+</div>
+<h1 align="center">
+  dhvl5.com
+</h1>
+<p align="center">
+  This is the second iteration of <a href="https://www.dhvl5.com" target="_blank">dhvl5.com</a> made with <a href="https://nuxtjs.org/" target="_blank">NuxtJs</a> and <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>
+</p>
+<p align="center">
+  Previous iteration:
+  <a href="https://github.com/dhvl5/dhvl5.github.io" target="_blank">v1</a>
+</p>
 
-> My bee&#39;s knees Nuxt.js project
+![demo](https://github.com/dhvl5/dhvl5-nuxt/blob/master/static/site.png?raw=true)
 
 ## Build Setup
 
@@ -19,4 +31,20 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
