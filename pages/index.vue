@@ -25,7 +25,7 @@
       </div>
     </header>
     <main class="h-full w-full divide-y-2 divide-white divide-opacity-25">
-      <div class="mt-0 sm:mt-10 md:mt-10 lg:mt-10 xl:mt-32 w-full flex px-5 py-24 items-center flex-col">
+      <div class="mt-0 sm:mt-10 md:mt-10 lg:mt-10 xl:mt-32 w-full flex px-5 py-12 sm:py-24 items-center flex-col">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-white">
           <h3 class="mb-8">HOWDY-DOODY!</h3>
           <h1 class="title-font sm:text-7xl text-5xl mb-8 font-medium text-white leading-none">I am
@@ -37,7 +37,7 @@
             <a href="/Dhaval_Prajapati.pdf" target="_blank" class="inline-flex text-white border border-green-500 ml-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg transform ease-in-out duration-200">Download CV</a>
           </div>
         </div>
-        <div class="pt-0 xl:pt-24 w-full h-64 flex justify-center items-center">
+        <div class="pt-0 xl:pt-24 w-full h-32 sm:h-64 flex justify-center items-center">
           <a href="#aboutme"><svg class="animate-bounce mt-4 ml-4 w-10 h-10 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
             <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
           </svg></a>
@@ -110,7 +110,7 @@
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Although I'm not looking for any new opportunities but my inbox is always open. If you have a question or just want to say hi, I'll try my best to get back to you!</p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">
-          <div class="flex flex-wrap -m-2">
+          <div class="flex flex-wrap -m-2 justify-center">
             <div class="p-2 w-1/2">
               <input id="nameInput" v-model="form.name" class="w-full bg-gray-800 rounded border border-gray-700 text-white focus:outline-none focus:border-green-500 text-base px-4 py-2" placeholder="Name" type="text" name="name" required>
             </div>
@@ -138,10 +138,6 @@
               <button @click="submitForm" class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg transform ease-in-out duration-200">Submit</button>
             </div>
             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-              <p title="Dhaval's Github" class="leading-normal mb-5 text-teal-400 flex justify-center items-center flex-wrap"><a href="https://github.com/dhvl5/dhvl5-nuxt" target="_blank" class="hover:text-teal-500 transform ease-in-out duration-200">Designed &amp; Built by ME
-                <br><font-awesome-icon class="text-2xl flex" style="width:15px; height:15px" :icon="{ prefix: 'fas', iconName: 'star' }"/> <span id="stars" class="w-full">100</span> &nbsp; <font-awesome-icon class="text-2xl" style="width:15px; height:15px" :icon="{ prefix: 'fas', iconName: 'code-branch' }"/> <span id="forks" class="w-full">100</span></a>
-              </p>
-
               <span class="inline-flex mt-4">
                 <a href="https://github.com/dhvl5/" target="_blank" class="text-gray-500">
                   <font-awesome-icon class="text-gray-500 transform ease-in-out duration-200 hover:text-white text-2xl" style="width:25px; height:25px" :icon="{ prefix: 'fab', iconName: 'github' }"/>
@@ -154,6 +150,24 @@
                 </a>
               </span>
             </div>
+            <a href="https://github.com/dhvl5/dhvl5-nuxt" target="_blank" class="text-center mt-4 leading-normal text-teal-400 hover:text-teal-500 transform ease-in-out duration-200">
+              <div>Designed &amp; Built by Dhaval Prajapati</div>
+              <div class="">
+                <span class="inline-flex items-center mr-2">
+                  <svg class="inline-block mr-1" aria-label="stars" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img">
+                    <path fill-rule="evenodd" fill="currentColor" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path>
+                  </svg>
+                  <span id="stars">100</span>
+                </span>
+                <span class="inline-flex items-center">
+                  <svg class="inline-block mr-1" aria-label="forks" viewBox="0 0 10 16" version="1.1" width="10" height="16" role="img">
+                    <path fill-rule="evenodd" fill="currentColor" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                    </path>
+                  </svg>
+                <span id="forks">100</span>
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
