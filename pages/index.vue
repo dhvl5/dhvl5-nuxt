@@ -48,7 +48,7 @@
         <img class="lg:w-3/12 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded-md" src="me.jpg">
         <div class="text-center lg:w-2/3 w-full">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Hey, it's me again!</h1>
-          <p class="leading-relaxed mb-8 text-white">I've always loved games more than anything, with many great ideas that I'd like to pursue. I want to create this and that and so on, I started working as a Data Entry Clerk while pursuing my studies further, however, those were some of the worst days I've experienced. The job killed me from the inside before I decided to drop out of college to do what I wanted to do. Since then, I've completed an internship and taught myself Unity3D within a few months, I am currently working within the industry and am actively creating 2D, 3D, and AR apps/games.</p>
+          <p class="leading-relaxed mb-8 text-white">I've always loved games more than anything, with many great ideas that I'd like to pursue. I want to create this and that and so on, I started working as a Data Entry Clerk while pursuing my studies further, however, those were some of the worst days I've experienced. The job killed me from the inside before I decided to drop out of college to do what I wanted to do. Since then, I've completed an internship and taught myself Unity3d within a few months, I am currently working within the industry and am actively creating 2D, 3D, and AR apps/games.</p>
         </div>
       </div>
       <div id="experience" class="container px-5 py-24 mx-auto">
