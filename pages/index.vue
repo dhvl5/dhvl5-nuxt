@@ -48,7 +48,7 @@
         <img class="lg:w-3/12 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded-md" src="me.jpg">
         <div class="text-center lg:w-2/3 w-full">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Hey, it's me again!</h1>
-          <p class="leading-relaxed mb-8 text-white">I've always loved games more than anything, with many great ideas that I'd like to pursue. I want to create this and that and so on, I started working as a Data Entry Clerk while pursuing my studies further, however, those were some of the worst days I've experienced. The job killed me from the inside before I decided to drop out of college to do what I wanted to do. Since then, I've completed an internship and taught myself Unity3d within a few months, I am currently working within the industry and am actively creating 2D, 3D, and AR apps/games.</p>
+          <p class="leading-relaxed mb-8 text-white">I've always loved games more than anything, with many great ideas that I'd like to pursue. I started working as a Data Entry Clerk while pursuing my studies further, It was a character building experience from which I learned a lot about aligning my true goals. Since then, I've completed an internship and taught myself Unity3d within a few months, I am currently working within the industry and am actively creating 2D, 3D, and AR apps/games.</p>
         </div>
       </div>
       <div id="experience" class="container px-5 py-24 mx-auto">
@@ -61,7 +61,7 @@
             </div>
             <div class="md:flex-grow">
               <h2 class="text-2xl font-medium text-white title-font mb-2">The Intellify</h2>
-              <p class="leading-relaxed text-white">- Creating virtual and augmented reality applications<br>- Building complex logic and problem solving</p>
+              <p class="leading-relaxed text-white">- Create games and augmented reality applications<br>- Identify process and application bottlenecks and bugs<br>- Design, build, and maintain efficient, reusable, and reliable code<br>- Ensure the best performance, quality, and responsiveness of applications</p>
               <a href="https://theintellify.com/" target="_blank" class="text-green-500 inline-flex items-center mt-4">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
@@ -77,7 +77,7 @@
             </div>
             <div class="md:flex-grow">
               <h2 class="text-2xl font-medium text-white title-font mb-2">CreArt Solutions</h2>
-              <p class="leading-relaxed text-white">- Creating games and augmented reality applications<br>- Building complex logic and problem solving<br>- Teaching game development</p>
+              <p class="leading-relaxed text-white">- Create games and augmented reality applications<br>- Identify process and application bottlenecks and bugs<br>- Teach game and android development<br>- Create and distribute educational content (notes, summaries, assignments etc.)<br>- Develop and enrich professional skills and knowledge by attending seminars, conferences etc.</p>
               <a href="https://creart.in/" target="_blank" class="text-green-500 inline-flex items-center mt-4">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
@@ -93,7 +93,7 @@
             </div>
             <div class="md:flex-grow">
               <h2 class="text-2xl font-medium text-white title-font mb-2">Anand Tradelink Pvt. Ltd.</h2>
-              <p class="leading-relaxed text-white"> - Created bills, quotations based on orders and continuous communication with clients.</p>
+              <p class="leading-relaxed text-white"> - Create bills, quotations based on orders and continuous communication with clients.</p>
               <a href="https://atpl.biz/" target="_blank" class="text-green-500 inline-flex items-center mt-4">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
@@ -178,7 +178,7 @@
           </div>
         </div>
       </div>
-      <dialog id="myModal" class="h-auto w-11/12 md:w-3/12 p-5 fixed bg-blue-900 rounded-md">
+      <!-- <dialog id="myModal" class="h-3/12 w-11/12 md:w-3/12 p-5 fixed bg-blue-900 rounded-md">
         <div class="flex flex-col w-full h-auto ">
           <div class="flex w-full h-auto justify-center items-center">
             <div class="flex w-10/12 h-auto py-3 justify-center items-center text-2xl text-gray-500 font-bold">
@@ -196,7 +196,7 @@
               </ul>
             </div>
         </div>
-      </dialog>
+      </dialog> -->
     </main>
     <footer class="text-gray-500 bg-gray-900 body-font">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
@@ -204,11 +204,11 @@
           <img class="w-10 h-10 text-white bg-green-500 rounded-full" src="logo.png"/>
           <!-- <span class="ml-3 text-xl">DHVL5</span> -->
         </a>
-        <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">&copy; 2020 Dhaval Prajapati</p>
+        <p class="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">&copy; 2021 Dhaval Prajapati</p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <button href="#" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0 transform ease-in-out duration-200" onclick="document.getElementById('myModal').showModal()" id="btn">
-          Made with
-          </button>
+          Made with &nbsp;
+          <font-awesome-icon class="text-red-600" style="margin-top: 3px; width:18px; height:18px" :icon="{ prefix: 'fas', iconName: 'heart' }"/>
+          &nbsp; in India
         </span>
       </div>
     </footer>
