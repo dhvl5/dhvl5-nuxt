@@ -24,6 +24,7 @@
         </span>
       </div>
     </header>
+    
     <main class="h-full w-full divide-y-2 divide-white divide-opacity-25">
       <div class="mt-0 sm:mt-10 md:mt-10 lg:mt-10 xl:mt-32 w-full flex px-5 py-12 sm:py-24 items-center flex-col">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-white">
@@ -178,26 +179,8 @@
           </div>
         </div>
       </div>
-      <!-- <dialog id="myModal" class="h-3/12 w-11/12 md:w-3/12 p-5 fixed bg-blue-900 rounded-md">
-        <div class="flex flex-col w-full h-auto ">
-          <div class="flex w-full h-auto justify-center items-center">
-            <div class="flex w-10/12 h-auto py-3 justify-center items-center text-2xl text-gray-500 font-bold">
-                  Made with
-            </div>
-            <div onclick="document.getElementById('myModal').close();" class="flex w-1/12 h-auto justify-center cursor-pointer">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#A0AEC0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
-            </div>
-          </div>
-            <div class="flex w-full h-auto py-10 px-2 justify-center items-center bg-blue-900 rounded text-gray-500">
-              <ul class="list-disc">
-                <li>Nuxt.js</li>
-                <li>TailwindCSS</li>
-                <li>Font Awesome</li>
-              </ul>
-            </div>
-        </div>
-      </dialog> -->
     </main>
+
     <footer class="text-gray-500 bg-gray-900 body-font">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a href="./" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
