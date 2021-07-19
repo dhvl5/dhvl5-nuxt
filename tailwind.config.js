@@ -45,12 +45,12 @@ module.exports = {
         '8xl': '8rem',
         '9xl': '9rem',
         '10xl': '10rem'
-      }
+      },
     }
   },
   variants: {
     filter: ['responsive'], // defaults to ['responsive']
     backdropFilter: ['responsive'] // defaults to ['responsive']
   },
-  plugins: [require('tailwindcss-filters')]
+  plugins: [require('tailwindcss-filters'), require('@tailwindcss/line-clamp'), require('@tailwindcss/typography')]
 }

@@ -57,7 +57,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/dayjs'],
   /*
    ** Build configuration
    */
