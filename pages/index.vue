@@ -9,7 +9,7 @@
           </h1>
           <p class="mb-8 text-xl leading-relaxed">a passionate self-made game developer <br>who loves coding and making cool stuff with it.</p>
           <div class="flex justify-center">
-            <nuxt-link to="/contactme" class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg transform ease-in-out duration-200">Say 'hi'</nuxt-link>
+            <nuxt-link to="#contactme" class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg transform ease-in-out duration-200">Say 'hi'</nuxt-link>
             <a href="/Dhaval_Prajapati.pdf" target="_blank" class="inline-flex text-white border border-green-500 ml-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg transform ease-in-out duration-200">Download CV</a>
           </div>
         </div>
